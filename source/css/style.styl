@@ -27,3 +27,18 @@ if (hexo-config('home.sidebar.enable') == true)
 
 .page-template-content h1
   text-align: center
+
+.markdown-body .profile-pic
+  float: right
+  width: 200px
+  margin-top: -110px
+  margin-left: 20px
+  border-radius: 8px
+
+@media screen and (max-width: 768px)
+  .markdown-body .profile-pic
+    float: none
+    display: block
+    margin: 20px auto 0 auto
+    width: 50%
+    margin-top: 0
